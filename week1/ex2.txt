@@ -1,0 +1,12 @@
+[ivan@fedora week1]$ sudo dnf install sl
+[ivan@fedora week1]$ sl
+[ivan@fedora week1]$ sudo dnf install toilet
+[ivan@fedora week1]$ sudo dnf install fortune-mod
+[ivan@fedora week1]$ fortune
+[ivan@fedora week1]$ fortune|toilet
+[ivan@fedora week1]$ fortune > /dev/null
+[ivan@fedora week1]$ cat /dev/random | toilet
+[ivan@fedora week1]$ sudo dnf install oneko
+[ivan@fedora week1]$ oneko -h
+[ivan@fedora week1]$ oneko -name oneko1 & oneko -dog -toname oneko1 -name oneko2 & oneko -toname oneko2 -sakura
+
