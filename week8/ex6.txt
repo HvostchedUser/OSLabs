@@ -1,0 +1,9 @@
+With 16-bit address space and 8KiB page size we have 
+
+2^16 / 2 ^ 13 = 8 (pages)
+
+2^16 (16bit address space)
+
+2^13 (8KiB page size = 2^13)
+
+8 entries for the a page table.
