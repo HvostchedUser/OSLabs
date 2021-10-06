@@ -1,0 +1,3 @@
+Physical address is not for standard proccesses, but for kernel. They represent thre real location of data.
+Virtual addresses are the ones which were specially allocated for proccesses and are freely accessible by them.
+The value of virtual addresses is relative for every proccess
