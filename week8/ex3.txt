@@ -1,0 +1,28 @@
+top utility shows system resources and how the proccesses use these resources.
+a.out used up 10 10% of my memory and 3% of my CPU
+
+top -d 1 output:
+
+Tasks: 311 total,   1 running, 310 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0,2 us,  0,5 sy,  0,0 ni, 98,9 id,  0,0 wa,  0,4 hi,  0,0 si,  0,0 st
+MiB Mem :   7581,0 total,   3869,2 free,   2543,3 used,   1168,5 buff/cache
+MiB Swap:   7581,0 total,   6458,7 free,   1122,3 used.   4377,0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND  
+  10556 ivan      20   0  783668 782280   1056 S   3,0  10,1   0:00.22 a.out    
+   1897 ivan      20   0 5630468 170920  91176 S   2,0   2,2   2:25.33 gnome-s+ 
+    813 root      20   0  450308   4712   4256 S   1,0   0,1   0:01.33 iio-sen+ 
+   4200 ivan      20   0 3826008 274552 112912 S   1,0   3,5   1:22.09 firefox  
+   9505 ivan      20   0 2762088 172484 102652 S   1,0   2,2   0:03.91 Web Con+ 
+  10560 ivan      20   0  235976   5072   4232 R   1,0   0,1   0:00.07 top      
+      1 root      20   0  173644   7888   5396 S   0,0   0,1   0:01.57 systemd  
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd 
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp   
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+ 
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker+ 
+      9 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mm_perc+ 
+     10 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tas+ 
+     11 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tas+ 
+     12 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tas+ 
+     13 root      20   0       0      0      0 S   0,0   0,0   0:00.04 ksoftir+ 
+     14 root      20   0       0      0      0 I   0,0   0,0   0:02.51 rcu_sch+ 
