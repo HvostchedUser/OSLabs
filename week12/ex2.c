@@ -1,7 +1,6 @@
-#include <linux/input.h>
 #include <stdio.h>
+#include <linux/input.h>
 #include <fcntl.h>
-
 
 int main() {
     struct input_event events[1000];
