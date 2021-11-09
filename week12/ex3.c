@@ -5,7 +5,7 @@
 
 int main() {
   
-    printf("The shortcuts: h+e, p+e, c+a+p");
+    printf("The shortcuts: h+e, p+e, c+a+p. Press the keys simultaneously!\n");
     struct input_event events[1000];
     int pehotkeys=0;
     int caphotkeys=0;
