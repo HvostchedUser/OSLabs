@@ -50,15 +50,15 @@ int main() {
           hehotkeys=0;
         }
         if (hehotkeys>=2){
-          printf("Hello world!");
+          printf("Hello world!\n");
           pehotkeys=0;
         }
         if (pehotkeys>=2){
-          printf("I passed the Exam!");
+          printf("I passed the Exam!\n");
           pehotkeys=0;
         }
         if (caphotkeys>=3){
-          printf("Get some cappuccino!");
+          printf("Get some cappuccino!\n");
           caphotkeys=0;
         }
     }
