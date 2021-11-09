@@ -1,0 +1,27 @@
+The shortcuts: h+e, p+e, c+a+p
+PRESS 0x2e (46)
+cPRESS 0x1e (30)
+aPRESS 0x19 (25)
+pGet some cappuccino!
+RELEASE 0x19 (25)
+RELEASE 0x1e (30)
+RELEASE 0x2e (46)
+PRESS 0x2e (46)
+cPRESS 0x1e (30)
+aPRESS 0x19 (25)
+pGet some cappuccino!
+RELEASE 0x19 (25)
+RELEASE 0x1e (30)
+RELEASE 0x2e (46)
+PRESS 0x19 (25)
+pPRESS 0x12 (18)
+eI passed the Exam!
+RELEASE 0x12 (18)
+RELEASE 0x19 (25)
+PRESS 0x23 (35)
+hPRESS 0x12 (18)
+eHello world!
+RELEASE 0x12 (18)
+RELEASE 0x23 (35)
+PRESS 0x1d (29)
+PRESS 0x2e (46)
