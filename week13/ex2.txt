@@ -1,1 +1,5 @@
+Deadlock recovery does not take much of system resources while the proccess is running since it is performed in case when deadlock already happened, therefore it is probably better to use it in case when deadlocks are uncommon since recovery might take a lot of time.
 
+Deadlock prevention is a good strategy when the deadlocks are common or when we don't need to access resources oftenly since it requires to check the resource every time it is going to be allocated, but this check might take a noticeable amount of resources while the proccess is running.
+
+Deadlock avoidance does not spend a lot of resources but it requires us to know which resources are going to be accessed in the future to work the best. Since this information is not always fully available, this technique's best use case are predictable applications with a well known resource request timings.
